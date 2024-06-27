@@ -1,13 +1,8 @@
 #include<iostream>
-
-
-
 using namespace std;
 
 string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
-
 int total=0;
-
 void enter()
 
 {
@@ -150,7 +145,7 @@ void search()
 
 	string rollno;
 
-				cout<<"Enter the roll no of student"<<endl;
+				cout<<"Enter the roll no of student:";
 
 				cin>>rollno;
 
@@ -196,7 +191,7 @@ void update()
 
 		string rollno;
 
-				cout<<"Enter the roll no of student which you want to update"<<endl;
+				cout<<"Enter the roll no of student which you want to update:";
 
 				cin>>rollno;
 
@@ -292,7 +287,7 @@ void deleterecord()
 
 				string rollno;
 
-				cout<<"Enter the roll no of student which you wanted to delete"<<endl;
+				cout<<"Enter the roll no of student which you wanted to delete:";
 
 				cin>>rollno;
 
@@ -367,6 +362,8 @@ main()
 	cout<<"Press 5 to Delete the student data"<<endl;
 
 	cout<<"Press 6 to exit"<<endl;
+	
+	cout<<"Enter the choice:";
 
 	cin>>value;
 
